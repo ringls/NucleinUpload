@@ -42,7 +42,7 @@ namespace NucleinUpload.Models
         /// <summary>
         /// 
         /// </summary>
-        public string status { get; set; }
+        public bool status { get; set; }
         /// <summary>
         /// 
         /// </summary>

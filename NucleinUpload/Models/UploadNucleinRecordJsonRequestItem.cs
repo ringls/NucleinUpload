@@ -54,11 +54,11 @@ namespace NucleinUpload.Models
         /// <summary>
         /// 
         /// </summary>
-        public int crowdType { get; set; }
+        public string crowdType { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public int subCrowdType { get; set; }
+        public string subCrowdType { get; set; }
         /// <summary>
         /// 
         /// </summary>
@@ -75,5 +75,9 @@ namespace NucleinUpload.Models
         /// 
         /// </summary>
         public string extendParameter { get; set; }
+
+        public UploadNucleinRecordJsonRequestItem Clone() {
+            return this.MemberwiseClone() as UploadNucleinRecordJsonRequestItem;
+        }
     }
 }

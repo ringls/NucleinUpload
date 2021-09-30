@@ -35,7 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="180FrameWork.Common">
+    <Reference Include="180FrameWork.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\180FrameWork\lib\180FrameWork.Common.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -62,8 +63,10 @@
     <Compile Include="frmTools.Designer.cs">
       <DependentUpon>frmTools.cs</DependentUpon>
     </Compile>
-    <Compile Include="Helpers\SM4.cs" />
+    <Compile Include="Helpers\ConsoleHelper.cs" />
     <Compile Include="Helpers\SysConfig.cs" />
+    <Compile Include="Models\NUCLEIN_RECORD.cs" />
+    <Compile Include="Models\SPT_LIS_UPLOG.cs" />
     <Compile Include="Models\UploadNucleinRecordJsonRequest.cs" />
     <Compile Include="Models\UploadNucleinRecordJsonRequestItem.cs" />
     <Compile Include="Models\UploadNucleinRecordJsonResponse.cs" />
@@ -97,6 +100,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="核酸检测收集相关接口说明-全省-2021-09-29.docx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="myconfig.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="myloger.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

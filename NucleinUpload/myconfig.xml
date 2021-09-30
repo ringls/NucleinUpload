@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<appSettings>        
+        <add key="NetType" value="外"/>
+        <add key="UploadNumber" value="100"/>
+        <!--测试环境-->
+        <add key="HopitalCode" value="01350102001"/>
+        <add key="Key" value="1234567890123456"/>
+        <add key="ServerAddress" value="http://api.zoesmjk.com:9380/nucleinProvince/"/>
+        <!--正式环境-->
+        <!--<add key="HopitalCode" value=""/>
+        <add key="Key" value="gOh914jcIzor29sQ"/>
+        <add key="ServerAddress" value="http://10.120.106.116:8206/8080/nucleinProvince/"/>
+        -->
+	</appSettings>
+</configuration>

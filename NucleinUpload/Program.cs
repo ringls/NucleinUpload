@@ -15,7 +15,7 @@ namespace NucleinUpload
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmTools());
+            Application.Run(new frmMain());
         }
     }
 }

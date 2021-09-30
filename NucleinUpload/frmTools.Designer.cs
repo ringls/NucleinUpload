@@ -44,7 +44,7 @@ namespace NucleinUpload
             this.txtSource.Multiline = true;
             this.txtSource.Name = "txtSource";
             this.txtSource.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtSource.Size = new System.Drawing.Size(241, 450);
+            this.txtSource.Size = new System.Drawing.Size(241, 245);
             this.txtSource.TabIndex = 0;
             // 
             // txtCode
@@ -54,7 +54,7 @@ namespace NucleinUpload
             this.txtCode.Multiline = true;
             this.txtCode.Name = "txtCode";
             this.txtCode.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtCode.Size = new System.Drawing.Size(241, 450);
+            this.txtCode.Size = new System.Drawing.Size(241, 245);
             this.txtCode.TabIndex = 1;
             // 
             // btnEnCode
@@ -75,7 +75,7 @@ namespace NucleinUpload
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(241, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(95, 450);
+            this.panel1.Size = new System.Drawing.Size(95, 245);
             this.panel1.TabIndex = 3;
             // 
             // btnDeCode
@@ -93,7 +93,7 @@ namespace NucleinUpload
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 450);
+            this.ClientSize = new System.Drawing.Size(577, 245);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtCode);
             this.Controls.Add(this.txtSource);
